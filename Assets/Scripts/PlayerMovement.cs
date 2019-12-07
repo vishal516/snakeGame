@@ -167,6 +167,7 @@ public class PlayerMovement : MonoBehaviour
             for (int j = 0; j < 20; j++)
             {
                 grid[i, j] = Instantiate(tile, new Vector2(i, j), Quaternion.identity);
+                grid[i, j].transform.SetParent(transform.parent);
             }
         }
     }
