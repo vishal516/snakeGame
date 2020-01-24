@@ -63,6 +63,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\gameB.cs" />
     <Compile Include="Assets\RoughScripts\game.cs" />
     <Compile Include="Assets\RoughScripts\touchSwipeInput.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
@@ -272,6 +273,9 @@
     </Reference>
     <Reference Include="UnityEngine.Networking">
       <HintPath>D:/Program Files/Unity2018LTS/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="Vuforia.UnityExtensions">
+      <HintPath>D:/Program Files/Unity2018LTS/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.GoogleAudioSpatializer">
       <HintPath>D:/Program Files/Unity2018LTS/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
